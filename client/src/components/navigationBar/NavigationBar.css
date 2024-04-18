@@ -1,0 +1,41 @@
+
+header {
+    background-color: #333; /* Dark grey background */
+    padding: 10px;
+  }
+  
+ 
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+  }
+  
+  
+  div {
+    /* Add styles for the ConnectedAccount component if needed */
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  
+  a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  a:hover {
+    color: #00bcd4; /* Change color on hover */
+  }
